@@ -1,0 +1,32 @@
+29recvnum:4,4
+[b'Command:29', b'Status:0000', b'NUMS:04', b'Times:04', b'Power:CB', b'AntID:11', b'Timestamp:00000013', b'EPC:2016000000082046', b'Times:06', b'Power:C5', b'AntID:11', b'Timestamp:0000001A', b'EPC:2016000000082044', b'Times:06', b'Power:C7', b'AntID:11', b'Timestamp:0000001F', b'EPC:2016000000082045', b'Times:04', b'Power:C8', b'AntID:11', b'Timestamp:00000041', b'EPC:2018000000082043']
+
+/opt/emq-relx-master/_rel/emqttd/bin/emqttd console
+>>> for v in tt:
+	print(v)
+
+	
+b'Command:29'
+b'Status:0000'
+b'NUMS:04'
+b'Times:04'
+b'Power:CB'
+b'AntID:11'
+b'Timestamp:00000013'
+b'EPC:2016000000082046'
+b'Times:06'
+b'Power:C5'
+b'AntID:11'
+b'Timestamp:0000001A'
+b'EPC:2016000000082044'
+b'Times:06'
+b'Power:C7'
+b'AntID:11'
+b'Timestamp:0000001F'
+b'EPC:2016000000082045'
+b'Times:04'
+b'Power:C8'
+b'AntID:11'
+b'Timestamp:00000041'
+b'EPC:2018000000082043'
+>>> 
